@@ -1,0 +1,5 @@
+Call Stack: In many programming languages, including JavaScript, there's a special type of stack called the call stack. It keeps track of function calls during the execution of a program. 
+When a function is called, a new frame (also known as an activation record or stack frame) is pushed onto the call stack, containing information about the function's arguments, local variables, and return address. 
+When the function returns, its frame is popped off the call stack.
+
+Recursion: Recursion heavily relies on the call stack. Each recursive function call adds a new frame to the call stack until the base case is reached. Then, as the function calls return, frames are popped off the stack.
