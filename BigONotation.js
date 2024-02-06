@@ -65,7 +65,8 @@ function logarithmicExample(n) {
 }
 
 /*
-In this logarithmic example, the algorithm iterates through the loop while i is less than n, and on each iteration, i is multiplied by 2. This results in a logarithmic time complexity because the number of iterations grows logarithmically with the input size n. In each iteration, the problem size is effectively halved, 
+In this logarithmic example, the algorithm iterates through the loop while i is less than n, and on each iteration, i is multiplied by 2. 
+This results in a logarithmic time complexity because the number of iterations grows logarithmically with the input size n. In each iteration, the problem size is effectively halved, 
 making the algorithm more efficient for larger input sizes compared to linear or quadratic approaches.
 
 */
