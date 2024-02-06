@@ -23,5 +23,5 @@ console.log("Ending program"); // Log a message indicating the end of the progra
 /*
 This sequence of function calls and returns is managed by the call stack. Each function call adds a new frame to the stack, 
 and when a function returns, its frame is removed from the stack.
-
+It has to remember what method called it originally and return to that when the function is complete.
 */
