@@ -60,5 +60,44 @@ class Node {
   // Displaying tasks
   console.log("To-Do List:");
   todoList.print();
+
+  // Udemy tutorial:
+  class Node{
+     constructor(value){
+      this.value = value;
+      this.next = null;
+     }
+  }
+
+  // when creating a new node, we would use this line:
+  const newNode = new Node(4)
+
+
+  class LinkedList{
+
+    constructor(value){
+      //creates a new node at the time of creating a linked list
+      const newNode = new Node(value)
+      this.head = newNode();
+      this.tail = this.head;
+      this.length = 1;
+    }
+
+    push(value){
+      // creates a new node, adds to the end
+    }
+    unshift(value){
+      // creates a new node, adds to the beginning
+    }
+    insert(value){
+       // creates a new node, inserts where needed
+    }
+
+  }
+
+  
+    // using the constructor
+  let myLinkedList = new LinkedList(4);
+
   
   
