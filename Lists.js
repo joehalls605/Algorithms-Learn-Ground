@@ -1,11 +1,12 @@
-/* */
-
-
 /* 
-lists are dyanmic arrays that resize themselves for more elements.
-They manage much more memory behind the scenes, allocating more memory when elements are added and releasing memory after removal.
-They provide more dynamic operations for adding inserting and deleting in contrast to fixed arrays.
+Lists.
+
+A list is a data structure that stores a collection of items or elements.
+Lists are used to organise and manipulate data.
+
+Lists allow for dynamic resizing and can grow or shrink in size as needed for new elements.
+
 
 */
 
-const dynamicArray = [];
+const my_list = [1, 2, 3, 4, 5]

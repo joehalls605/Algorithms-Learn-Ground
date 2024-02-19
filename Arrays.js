@@ -8,7 +8,26 @@ Provide constant time acess to any element index
 Arrays are ordered collections
 */
 
-numbers = [1,2,3,4,5];
+const numbers = [1,2,3,4,5];
+
+
+//Mixed types 
+var mixedArray = [1, "two", true, { name: "John", age: 30 }, null];
+
+// Nested arrays
+
+var matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+// Array of objects
+var people = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 }
+];
 
 /* 
 Use case:
