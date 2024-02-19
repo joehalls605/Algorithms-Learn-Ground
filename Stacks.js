@@ -1,7 +1,9 @@
 /* 
-A collection of operations to push (add) elements onto the top and pop (remove) elements form the top
-Use cases:
 
+a stack is a data structure that follows the Last In, First Out (LIFO) principle. 
+This means the last element added to the stack is the first one to be removed.
+
+Use cases:
 Function call managment
 Undo in text editors 
 Backtracking in algorithms
