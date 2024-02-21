@@ -1,4 +1,5 @@
 // Bubble Sort
+// O(n^2) complexity.
 
 
 function bubbleSort(array){

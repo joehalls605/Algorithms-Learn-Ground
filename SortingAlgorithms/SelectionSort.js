@@ -1,7 +1,9 @@
 // Selection Sort
 
 // Selection sort works by repeatedly finding the minimum element from the unsorted portion of the array and moving it to the beginning. 
-// This process is repeated for each element until the entire array is sorted.
+// This process is repeated for each element until the entire array is sorted. O(n^2) complexity.
+
+
 
 function selectionSort(array){
     let min; // Declare a variable to hold the index of the minimum element.
