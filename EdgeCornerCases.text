@@ -1,0 +1,23 @@
+
+"Edge cases" and "corner cases" are terms used in software testing to refer to scenarios that lie at the extreme boundaries or limits of input values or system behavior. These cases are often considered critical to test because they can reveal unexpected or overlooked behavior in a program.
+
+Edge Cases:
+
+Edge cases refer to scenarios where inputs are at the extreme ends or boundaries of what the system can handle.
+These cases often involve minimum or maximum values, empty inputs, or inputs that are just below or above constraints or limits.
+Edge cases are important to test because they can reveal issues related to boundary conditions, boundary checking, and handling of special cases.
+Examples of edge cases include:
+An empty array as input.
+Input containing the minimum or maximum allowed values.
+Input with only one element when the algorithm's behavior changes based on the number of elements.
+Corner Cases:
+
+Corner cases are a subset of edge cases that involve multiple edge conditions simultaneously, often at the corners of a multidimensional input space.
+These cases are even more extreme and less likely to occur than typical edge cases.
+Corner cases test the interaction between different boundary conditions or constraints.
+Identifying and testing corner cases is crucial for ensuring robustness and reliability in software systems.
+Examples of corner cases include:
+An empty array of arrays (e.g., [[ ], [ ], [ ]]).
+Input with combinations of minimum and maximum values for multiple parameters.
+Input that meets multiple edge conditions simultaneously.
+In summary, edge cases and corner cases are special scenarios that are tested to ensure that software behaves correctly and reliably under extreme or unusual conditions. By testing these cases, developers can uncover potential issues and improve the overall quality and robustness of their software.

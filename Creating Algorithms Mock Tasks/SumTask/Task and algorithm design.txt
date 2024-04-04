@@ -18,3 +18,38 @@ Similar problems could be  finding the maximum or minimum number in an array, or
 
 5. Constraints and complexity:
 There are no constraints for this task but I aim for a efficient solution.
+
+6. Brain storm approach:
+I could use a simple for loop that iterates over each element in the array and adds it to a running total
+
+7. Evaluate feasbility and trade offs:
+This approach should be feasible for small-moderate arrays, but larger arrays would require an optimised solution.
+
+8. Choose an approach:
+Chose the loop iteration approach
+
+9. Design an algorithm:
+
+Initialise a variable 'sum' to 0
+Iterate over each element 'num' in the array
+Add 'num' to 'sum'
+After looping through all elements return 'sum'
+
+Sudo code:
+
+sum = 0;
+for each num in array
+    sum = sum + num
+    return sum
+
+10. Implement the Algorithm:
+(In JS file)
+
+11. Test and Validate:
+(In JS file)
+
+12. Refine and Optimize:
+(In JS file)
+
+13.
+(Documentation file README included)
