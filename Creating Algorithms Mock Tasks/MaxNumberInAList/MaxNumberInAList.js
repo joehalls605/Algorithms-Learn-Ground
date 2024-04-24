@@ -30,3 +30,8 @@ function findMax(list){
 
 
 }
+
+//Testing
+
+const numbers = [10, 5, 8, 20, 3];
+console.log("Maximum number:", findMax(numbers)); 
