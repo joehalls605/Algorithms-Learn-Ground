@@ -1,0 +1,15 @@
+Algorithmic design and analysis involve creating and evaluating procedures for solving problems systematically and efficiently. Here's an overview of the basics for someone new to algorithms:
+
+
+1. Understand the problem: Thoroughly understand the problem you’re trying to solve. Break down into smaller components and identify the inputs, outputs, constraints and requirements.
+
+2. Algorithm Design: Once you understand the problem, design a plan to solve it. This is a step by step set of rules for solving the problem. Various approaches may include brute force, greedy algorithms, divide and conquer, dynamic programming and more, depending on the problem.
+3. Psudocode: Before writing any code, its helpful to write pseudocode to clarify the algorithms structure and logic without getting bogged down in syntax.
+
+4. Write the code.
+
+5. Analysis of algorithms: After designing the algorithm, analyse it’s performance to understand how it behaves in terms of time complexity and space complexity. Time complexity refers to the amount of time an algorithm takes to run as a function of the input size, while space complexity refers to the amount of memory or storage space it requires. Big O notation is commonly used to express the time and space complexity of algorithms.
+
+6. Efficiency and Optimization: Aim to design algorithms that are efficient and optimized for the problem at hand. This involves minimizing the algorithm's time and space complexity while still meeting the problem's requirements. Consider trade-offs between different approaches and techniques to find the most suitable solution.
+
+7. Testing and Validation: Once you've implemented an algorithm, test it thoroughly to ensure it produces correct results for various inputs and edge cases. Validate the algorithm's correctness and performance using test cases and benchmarks.
