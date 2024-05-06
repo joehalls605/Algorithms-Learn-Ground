@@ -1,0 +1,35 @@
+### 1. **Define Objectives:**
+
+- Clearly state the purpose of the algorithm and what it's supposed to accomplish. What problem does it solve?
+
+### 2. **Identify Test Cases:**
+
+- Break down the algorithm's functionality into smaller units.
+- For each unit, identify inputs, expected outputs, and any boundary cases.
+
+### 3. **Design Test Data:**
+
+- Create a set of test data that covers various scenarios, including normal, boundary, and exceptional cases.
+- Ensure that test data is comprehensive enough to validate all aspects of the algorithm's functionality.
+
+### 4. **Create Test Procedures:**
+
+- Outline the steps to execute each test case, including how to set up initial conditions and any specific actions needed to perform the test.
+
+### 5. **Determine Expected Results:**
+
+- Define what the output of each test case should be. This includes expected values, error messages, or any other relevant outcomes.
+
+### 6. **Execute Tests:**
+
+- Follow the test procedures to run each test case against the algorithm.
+- Record the actual results of each test.
+
+### 7. **Analyse Results:**
+
+- Compare the actual results with the expected results for each test case.
+- Identify any discrepancies or failures.
+
+### 8. **Iterate and Retest:**
+
+- If any failures are found, debug the algorithm and repeat the testing process until all issues are resolved.

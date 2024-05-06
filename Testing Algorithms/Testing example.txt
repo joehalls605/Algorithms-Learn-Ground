@@ -1,0 +1,70 @@
+1. Objective:
+Verify that the findLargestNumber function correctly identifies the largest number in a given array.
+
+2. Identify Test Cases:
+Basic case: Test with an array where the largest number is in the middle.
+Largest number at the beginning of the array.
+Largest number at the end of the array.
+Test with negative numbers.
+Test with an empty array.
+Test with an array containing only one element.
+Test with an array containing duplicate largest numbers.
+Test with a large array.
+
+3. Design Test Data:
+Prepare test arrays corresponding to each test case identified in step 2.
+
+4. Create Test Procedures:
+Define steps to execute each test case using the findLargestNumber function.
+Verify the output against the expected result.
+
+5. Determine Expected Results:
+For each test case, determine what the largest number should be based on the input array.
+
+6. Execute Tests:
+Run each test case using the defined test data and procedures.
+Record the actual results.
+
+7. Analyze Results:
+Compare the actual results with the expected results for each test case.
+Identify any discrepancies or failures.
+
+Example Test Plan:
+
+Test Cases:
+Basic Case:
+Input: [1, 4, 7, 8, 9]
+Expected Output: 9
+
+Largest Number at the Beginning:
+Input: [9, 4, 7, 8, 1]
+Expected Output: 9
+
+Largest Number at the End:
+Input: [1, 4, 7, 8, 9]
+Expected Output: 9
+
+Test with Negative Numbers:
+Input: [-5, -2, -10, -3]
+Expected Output: -2
+
+Test with Empty Array:
+Input: []
+Expected Output: undefined (or any specific handling for empty arrays)
+Test with Single Element:
+Input: [5]
+Expected Output: 5
+
+Test with Duplicate Largest Numbers:
+Input: [3, 8, 8, 2, 5, 8]
+Expected Output: 8
+Test with Large Array:
+Input: Array with a large number of elements (e.g., 10,000 elements)
+Expected Output: [Expected largest number]
+
+Test Procedures:
+Run the findLargestNumber function with each input array.
+Compare the output with the expected result for each test case.
+Analysis:
+If the actual output matches the expected output for all test cases, the function is working correctly.
+If any test case fails, investigate the cause of failure and make necessary adjustments to the function.
