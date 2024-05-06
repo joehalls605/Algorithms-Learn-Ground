@@ -55,5 +55,24 @@ Time Complexity:
     The algorithm uses additional memory to store the counts in a object
     The space complexity is O(k) where k is the number of distinct elements in the array
 
-6. This algorithm is efficient, but for very large arrays, parrelisation might be considered.
-    */
+6.
+*/
+// Test cases
+function runTests() {
+    // Test case 1: Empty array
+    let result = countOccurences([]);
+    console.log("Test case 1 (Empty array):", result);
+
+    // Test case 2: Array with one element
+    result = countOccurences([1]);
+    console.log("Test case 2 (Array with one element):", result);
+
+    // Test case 3: Array with multiple elements and duplicates
+    result = countOccurences([1, 2, 3, 1, 2, 1, 3, 3, 3]);
+    console.log("Test case 3 (Array with multiple elements and duplicates):", result);
+
+    // Add more test cases as needed
+}
+
+// Run tests
+runTests();
