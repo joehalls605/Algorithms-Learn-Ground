@@ -34,3 +34,7 @@ function minCoins(coins, amount) {
 const coins = [25, 10, 5, 1]; // Denominations of coins
 const amount = 47; // Amount of money to make
 console.log("Minimum number of coins needed:", minCoins(coins, amount)); // Output the minimum number of coins needed to make the target amount
+
+// This algorithm is a greedy algorithm because it makes locally optimal choices at each step without considering the entire problem space. 
+// It iterates through the available coin denominations, selecting the largest denomination that can be used without exceeding the remaining amount of money. 
+// By selecting the largest possible coins at each step, it aims to minimize the total number of coins used, with the hope of finding the optimal solution.
