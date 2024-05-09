@@ -1,7 +1,15 @@
 /*
+a set is a built-in object that allows you to store unique values of any type, whether primitive values or object references. 
+Sets are particularly useful when you need to store a collection of distinct values and ensure that each value appears only once within the set.
 
-Sets are an unordered collection of unique elements
-The order does not matter, they only appear once
+Here are some key points about sets in JavaScript:
+
+Unique Values: Sets automatically eliminate duplicate values. If you try to add a value to a set that already exists, it will not be added again.
+Ordering: Sets maintain the insertion order of elements. When you iterate over a set, the values will be returned in the order they were inserted.
+Iterability: Sets are iterable, meaning you can loop through them using various methods like forEach, for...of loop, or entries() method.
+Value Equality: Sets use strict equality (===) to determine whether two values are the same. For objects, this means that two objects are considered equal only if they reference the same object in memory.
+Methods: Sets have methods for adding, removing, checking the presence of, and retrieving values, such as add(), delete(), has(), and clear().
+
 
 use case:
 In a list of user IDs, converting it to a set can quickly identify if there are any duplicate IDs.
@@ -12,26 +20,23 @@ Sets can be used for mathematical operations like union, intersection, and diffe
 // Creating a Set
 const mySet = new Set();
 
-// Adding elements to the Set
+// Adding values to the set
 mySet.add(1);
 mySet.add(2);
 mySet.add(3);
-mySet.add(2); // Duplicates are automatically ignored in a Set
+mySet.add(1); // Adding a duplicate value, which will be ignored
 
-console.log(mySet); // Output: Set { 1, 2, 3 }
+// Checking the size of the set (should be 3)
+console.log("Size of set:", mySet.size);
 
-// Checking if an element is in the Set
-console.log(mySet.has(2)); // Output: true
-console.log(mySet.has(4)); // Output: false
+// Checking if a value exists in the set
+console.log("Is 2 in the set?", mySet.has(2)); // Output: true
 
-// Removing an element from the Set
-mySet.delete(1);
-console.log(mySet); // Output: Set { 2, 3 }
+// Removing a value from the set
+mySet.delete(2);
 
-// Iterating through the Set
-for (const value of mySet) {
-    console.log(value);
+// Iterating over the set
+console.log("Values in the set:");
+for (let item of mySet) {
+    console.log(item);
 }
-// Output:
-// 2
-// 3
